@@ -1,7 +1,7 @@
 pos = 50
 r = 0
 
-with open("d1.txt") as f:
+with open("input.txt") as f:
     for s in f.read().splitlines():
         left = s[0] == 'L'
         delta = (-1 if left else 1) * int(s[1:])

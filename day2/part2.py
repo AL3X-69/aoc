@@ -27,7 +27,6 @@ with open("input.txt") as f:
                 continue
             for d in divisors(l):
                 if slices_equals(s, d):
-                    print(i)
                     r += i
                     break
 
